@@ -11,12 +11,12 @@ function init() {
   // elements for volume icon and set
   const volume = document.getElementById("volume");
   const volumeIcon = document.querySelector("#volume-controls>img");
-  const confetti = new JSConfetti();
+  const jsConfetti = new JSConfetti()
 
   // element of button
   const button = document.querySelector("button");
 
-  
+
   // select a horn and select correct image and audio
   function setHorn(){
     // audioCanBePlayed = true;
@@ -61,7 +61,7 @@ function init() {
   // click the “Play Sound” button and play corresponding sound 
   function playSound(){
     if (horn.value == 'party-horn'){
-      confetti.addConfetti()
+      jsConfetti.addConfetti()
     }
     audio.play()
   }
