@@ -1,4 +1,4 @@
 # Lab 5 - Starter
 
-https://github.com/yujiaen1999/introduction-to-github
+introduction-to-github repo: https://github.com/yujiaen1999/introduction-to-github
 
